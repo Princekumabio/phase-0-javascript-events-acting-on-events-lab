@@ -1,6 +1,6 @@
 // Your code here
 const dodger = document.getElementById("dodger");
-dodger.style.backgroundColor = "#FF69B4"
+dodger.style.backgroundColor = "#FF69B4";
 
 dodger.style.bottom = "100px";
 
@@ -13,7 +13,7 @@ function moveDodgerLeft() {
   if (left > 0) {
     dodger.style.left = `${left - 1}px`;
   }
-}
+};
 
 document.addEventListener("keydown", function (e) {
   if (e.key === "ArrowLeft") {
@@ -29,7 +29,7 @@ function moveDodgerRight() {
   if (left > 0) {
     dodger.style.left = `${left + 1}px`;
   }
-}
+};
 
 document.addEventListener("keyup", function (x) {
   if (x.key === "ArrowRight") {
